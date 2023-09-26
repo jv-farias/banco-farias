@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Banco Farias</title>
+</head>
+
+<body id="body">
+    <header>
+        <div class="cliente">
+            <div class="nome">
+                <h1 id="nomeCliente"></h1>
+                <span>Seja Bem Vindo de volta!</span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-menu">
+            <div class="saldo">
+                <div class="quantia">
+                    <p id="textSaldo">Saldo</p>
+                    <p id="valorSaldo">R$ 200,00</p>
+                    <p id="textEconomia">Economia: <span id="valorEconomia">R$ 200,00</span></p>
+
+                </div>
+                <div>
+                    <img id="olhinho" onclick="esconderSaldo()" src="./assets/olho.svg" alt="Esconder">
+                </div>
+            </div>
+            <div class="ads">
+                <div class="ads-content">
+                    <p id="textAds">Controle as Finanças do seu Dia a Dia</p>
+                </div>
+                <div class="ads-img">
+                    <img src="./assets/ads.svg" alt="Ads Imagem">
+                </div>
+            </div>
+
+            <div class="comprasContainer">
+                <h3>Compras</h3>
+                <div class="lojas">
+                    <div class="ifood" id="imgIfood">
+                        <img src="./assets/ifood.png" alt="Ifood">
+                    </div>
+
+                    <div class="steam" id="imgSteam">
+                        <img src="./assets/steam.jpg" alt="Steam">
+                    </div>
+                    <div class="ze" id="imgZe">
+                        <img src="./assets/ze-delivery.jpg" alt="Ze Delivery">
+                    </div>
+                    <div class="uber" id="imgUber">
+                        <img src="./assets/uber.webp" alt="Uber">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="button">Iniciar nova jornada!</div>
+    </footer>
+    <script type="module" src="./main.js"></script>
+</body>
+
+</html>

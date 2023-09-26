@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1A1A1A;
+    font-family: "Poppins", sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+header,
+main,
+footer {
+    width: 100%;
+}
+
+header {
+    padding: 2rem 2rem 3rem 2rem;
+}
+
+.cliente {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    color: #FFF;
+}
+
+.cliente h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.cliente span {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.container-menu {
+    width: 100%;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.saldo,
+.ads {
+    color: #E6E6E6;
+    padding: .8rem 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(112deg, rgba(255, 255, 255, 0.10) 6.31%, rgba(255, 255, 255, 0.00) 98.51%);
+    border-radius: 1.5rem;
+    border: 1px solid #A8A8A8;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    backdrop-filter: blur(20px);
+}
+
+.ads {
+    border-radius: 1rem;
+    background: #333;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.30), 0px 2px 6px 2px rgba(0, 0, 0, 0.15);
+    padding: 1.5rem 2rem;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+#textSaldo {
+    font-size: 1rem;
+}
+
+#valorSaldo {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#textAds {
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+}
+
+.ads-img img {
+    width: 5.5rem;
+}
+
+.comprasContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FFF;
+    gap: 2rem;
+}
+
+.comprasContainer h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.lojas {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.ifood,
+.steam,
+.ze,
+.uber {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    height: 8rem;
+
+}
+
+.ifood img,
+.steam img,
+.ze img,
+.uber img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.uber img {
+    background-color: black;
+    object-fit: contain;
+}
+
+.ifood img {
+
+    border-radius: 1rem;
+    border: 2px solid #BD0317;
+}
+
+.steam img {
+    border-radius: 1rem;
+    border: 2px solid #154AAD;
+}
+
+.ze img {
+    border-radius: 1rem;
+    border: 2px solid #CFAA09;
+}
+
+.uber img {
+    border-radius: 1rem;
+    border: 2px solid #242424;
+}
+
+
+.ifood:active,
+.steam:active,
+.ze:active,
+.uber:active {
+    transform: scale(0.98);
+
+}
+
+footer {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+
+}
+
+.button {
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    padding: .5rem 3rem;
+    width: 100%;
+    border-radius: 5rem;
+    background: #333;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.30), 0px 2px 6px 2px rgba(0, 0, 0, 0.15);
+}
+
+.button:active {
+    background: #292929;
+}
